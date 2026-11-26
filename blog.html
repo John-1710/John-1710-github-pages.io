@@ -29,8 +29,16 @@
     </section>
 
     <section class="card">
-      <h2>Skills &amp; Focus</h2>
-      <p>HTML5, Semantic Markup, CSS3 Grid &amp; Flexbox, Responsive Web Design, and Web Accessibility.</p>
+      <details>
+        <summary>Click to expand section 1</summary>
+        <p>This text is hidden by default and expands when the user clicks the summary.</p>
+      </details>
+
+     <!-- Add the 'open' attribute to start a section expanded -->
+     <details open>
+       <summary>Section 2 (Open by default)</summary>
+       <p>This text is visible immediately when the page loads.</p>
+     </details>
     </section>
   </main>
 
